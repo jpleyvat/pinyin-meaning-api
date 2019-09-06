@@ -12,7 +12,7 @@ mongoose.connect(
 	process.env.DB_CONNECT,
 	{ useNewUrlParser: true },
 	() => {
-		console.log('Connected to db!');
+		console.log('Connected to db!!!!');
 	}
 );
 
