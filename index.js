@@ -5,6 +5,8 @@ const mongoose = require('mongoose');
 //Import Routes
 const characterRoute = require('./routes/character');
 
+var PORT = process.env.PORT || 3000;
+
 dotenv.config();
 
 //Conect toDB
