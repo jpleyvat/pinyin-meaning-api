@@ -24,4 +24,4 @@ app.use(express.json());
 //Route Middlewares
 app.use('/api/character', characterRoute);
 
-app.listen(3000, () => console.log('Server up and running!'));
+app.listen(PORT, () => console.log('Server up and running!'));
